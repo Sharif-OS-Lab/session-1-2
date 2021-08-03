@@ -19,7 +19,7 @@ Student No. of member 2: `[FILL HERE]`
 
 ### Section 2.3.1
 
-- [ ] `[FILL HERE with image of syscalls table]`
+- [![Capture](https://user-images.githubusercontent.com/45646480/128060950-902244d1-8c2a-4d6a-b708-a4bbe0a5b911.JPG)] `[FILL HERE with image of syscalls table]`
 
 ### Section 2.3.2
 - [ ] `[FILL HERE with image of running code (task 3)]`
