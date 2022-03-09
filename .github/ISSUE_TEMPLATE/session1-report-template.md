@@ -48,13 +48,13 @@ Student No. of member 2: `[FILL HERE]`
 ## Section 1.4 
 
 - [ ] Write (in English or Persian) about each command:
-    1. `[FILL HERE with description about cut]`
-    2. `[FILL HERE with description about find]`
-    3. `[FILL HERE with description about head]`
-    4. `[FILL HERE with description about tail]`
-    5. `[FILL HERE with description about touch]`
-    6. `[FILL HERE with description about wc]`
-    7. `[FILL HERE with description about kill]`
+    1. [ ] `[FILL HERE with description about cut]`
+    2. [ ] `[FILL HERE with description about find]`
+    3. [ ] `[FILL HERE with description about head]`
+    4. [ ] `[FILL HERE with description about tail]`
+    5. [ ] `[FILL HERE with description about touch]`
+    6. [ ] `[FILL HERE with description about wc]`
+    7. [ ] `[FILL HERE with description about kill]`
 
 - [ ] Write commands for these operations:
     - [ ] `[FILL HERE with commands for finding line count in mybook.txt]`
