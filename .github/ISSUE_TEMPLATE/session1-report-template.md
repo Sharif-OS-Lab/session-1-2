@@ -22,25 +22,25 @@ Student No. of member 2: `[FILL HERE]`
     1. [ ] `[FILL HERE which Virtual Machine Software you choosed]`
 - [ ] Install Debian on Virtual Machine, add three screenshots from install process
     1. [ ] `[FILL HERE with image 1]`
-    1. [ ] `[FILL HERE with image 2]`
-    1. [ ] `[FILL HERE with image 3]`
+    2. [ ] `[FILL HERE with image 2]`
+    3. [ ] `[FILL HERE with image 3]`
 
 ### Section 1.3.2
 
 - [ ] Do 13 subtasks from 1 to 13 and add screenshots of each:
     1. [ ] `[FILL HERE with screen capture of subtask 1]`
-    1. [ ] `[FILL HERE with screen capture of subtask 2]`
-    1. [ ] `[FILL HERE with screen capture of subtask 3]`
-    1. [ ] `[FILL HERE with screen capture of subtask 4]`
-    1. [ ] `[FILL HERE with screen capture of subtask 5]`
-    1. [ ] `[FILL HERE with screen capture of subtask 6]`
-    1. [ ] `[FILL HERE with screen capture of subtask 7]`
-    1. [ ] `[FILL HERE with screen capture of subtask 8]`
-    1. [ ] `[FILL HERE with screen capture of subtask 9]`
-    1. [ ] `[FILL HERE with screen capture of subtask 10]`
-    1. [ ] `[FILL HERE with screen capture of subtask 11]`
-    1. [ ] `[FILL HERE with screen capture of subtask 12]`
-    1. [ ] `[FILL HERE with screen capture of subtask 13]`
+    2. [ ] `[FILL HERE with screen capture of subtask 2]`
+    3. [ ] `[FILL HERE with screen capture of subtask 3]`
+    4. [ ] `[FILL HERE with screen capture of subtask 4]`
+    5. [ ] `[FILL HERE with screen capture of subtask 5]`
+    6. [ ] `[FILL HERE with screen capture of subtask 6]`
+    7. [ ] `[FILL HERE with screen capture of subtask 7]`
+    8. [ ] `[FILL HERE with screen capture of subtask 8]`
+    9. [ ] `[FILL HERE with screen capture of subtask 9]`
+    10. [ ] `[FILL HERE with screen capture of subtask 10]`
+    11. [ ] `[FILL HERE with screen capture of subtask 11]`
+    12. [ ] `[FILL HERE with screen capture of subtask 12]`
+    13. [ ] `[FILL HERE with screen capture of subtask 13]`
 
 - For subtask 7 write difference between `>` and `>>`
     - [ ] 1. `[FILL HERE with screen capture of subtask 7]`
@@ -49,12 +49,12 @@ Student No. of member 2: `[FILL HERE]`
 
 - [ ] Write (in English or Persian) about each command:
     1. `[FILL HERE with description about cut]`
-    1. `[FILL HERE with description about find]`
-    1. `[FILL HERE with description about head]`
-    1. `[FILL HERE with description about tail]`
-    1. `[FILL HERE with description about touch]`
-    1. `[FILL HERE with description about wc]`
-    1. `[FILL HERE with description about kill]`
+    2. `[FILL HERE with description about find]`
+    3. `[FILL HERE with description about head]`
+    4. `[FILL HERE with description about tail]`
+    5. `[FILL HERE with description about touch]`
+    6. `[FILL HERE with description about wc]`
+    7. `[FILL HERE with description about kill]`
 
 - [ ] Write commands for these operations:
     - [ ] `[FILL HERE with commands for finding line count in mybook.txt]`
