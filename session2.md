@@ -45,7 +45,7 @@
 <div dir="ltr">
 
 ```shell
-/usr/include/i386-linux-gnu/asm/unistd_32.h
+/usr/include/$(uname -m)-linux-gnu/asm/unistd_32.h
 ```
 
 
