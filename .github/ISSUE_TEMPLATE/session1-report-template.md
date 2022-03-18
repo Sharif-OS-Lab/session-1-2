@@ -19,7 +19,7 @@ Student No. of member 2: `[FILL HERE]`
 
 ### Section 1.3.1
 - [ ] Choose one of Virtual Machine Softwares, such as VirtualBox, VMware, ...
-    1. [ ] `[FILL HERE with Virtual Machine Software you choosed]`
+    1. [ ] `[FILL HERE which Virtual Machine Software you choosed]`
 - [ ] Install Debian on Virtual Machine, add three screenshots from install process
     1. [ ] `[FILL HERE with image 1]`
     1. [ ] `[FILL HERE with image 2]`
@@ -48,13 +48,13 @@ Student No. of member 2: `[FILL HERE]`
 ## Section 1.4 
 
 - [ ] Write (in English or Persian) about each command:
-    1. `[FILL HERE with description about cut]`
-    1. `[FILL HERE with description about find]`
-    1. `[FILL HERE with description about head]`
-    1. `[FILL HERE with description about tail]`
-    1. `[FILL HERE with description about touch]`
-    1. `[FILL HERE with description about wc]`
-    1. `[FILL HERE with description about kill]`
+    1. [ ] `[FILL HERE with description about cut]`
+    1. [ ] `[FILL HERE with description about find]`
+    1. [ ] `[FILL HERE with description about head]`
+    1. [ ] `[FILL HERE with description about tail]`
+    1. [ ] `[FILL HERE with description about touch]`
+    1. [ ] `[FILL HERE with description about wc]`
+    1. [ ] `[FILL HERE with description about kill]`
 
 - [ ] Write commands for these operations:
     - [ ] `[FILL HERE with commands for finding line count in mybook.txt]`

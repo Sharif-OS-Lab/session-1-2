@@ -45,7 +45,7 @@
 <div dir="ltr">
 
 ```shell
-/usr/include/i386-linux-gnu/asm/unistd_32.h
+/usr/include/$(uname -m)-linux-gnu/asm/unistd_32.h
 ```
 
 
@@ -125,8 +125,8 @@
 2. وارد پوشه ی کد منبع هسته سیستم عامل که در جلسه قبل ایجاد کردیم شوید.
 3. دستور make oldconfig را اجرا کنید. این دستور هسته ی جدید را مطابق با ویژگی های هسته ی فعلی که بر روی که بر روی سیستم
 نصب شده است تنظیم می کند.
-1. با دستور make هسته را کامپایل کنید و مطمئن شوید که این عملیات به درستی صورت می گیرد.
-1. به کمک دستور make modules_install هسته ی جدید را نصب نمایید.
+1. با دستور `make -j$(nproc)` هسته را کامپایل کنید و مطمئن شوید که این عملیات به درستی صورت می گیرد.
+1. به کمک دستور `make modules_install -j$(nproc)` هسته ی جدید را نصب نمایید.
 1. سیستم عامل را مجدداً راه اندازی کنید. دقت کنید که در منوی بوت، هسته جدید را انتخاب کنید.
 1. یک پوشه خالی با نام hello در شاخه اصلی کد منبع هسته ایجاد کنید.
 1. در این پوشه یک فایل hello.c شامل کد فراخوانی سیستمی با محتوای زیر ایجاد کنید:
@@ -156,7 +156,7 @@
     <div dir="ltr">
 
     ```makefile
-    Core-y += kernrl/ mm/ fs/ ipc/ security/ crypto/ block/
+    core-y += kernrl/ mm/ fs/ ipc/ security/ crypto/ block/
     ```
 
     </div>
@@ -166,8 +166,9 @@
     <div dir="ltr">
 
     ```makefile
-    ./arch/x86/syscalls/syscall\_ 32.tbl
+    ./arch/x86/entry/syscalls/syscall\_ 32.tbl
     ```
+    > بسته به نوع سیستم میتوانید فایل 32 یا 64 را تغییر دهید. 
     </div>
     
     خطی که باید اضافه کنید:
@@ -176,6 +177,9 @@
     ```makefile
     357 i386 hello sys_hello
     ```
+    > عدد ۳۷۵ را با عدد آخرین خط +۱ تعویض کنید
+    > می بایست i386 را با نوع سیستم خود (برای مثال 64 یا x32) تعویض کنید. تنها نیاز است که همین فایل را بررسی کنید
+    > اگر با خطا مواجه شدید در هنگام اجرای make که به نام `__x64_sys_hello` اشاره داشت. این خط را تغییر دهید و از این نام استفاده کنید.
     </div>
     
 1. در فایل زیر خطی به صورت بلوک بعدی اضافه کنید:
@@ -194,6 +198,7 @@
     ```c
     asmlinkage long sys_hello(void);
     ```
+    > توجه داشته باشید که باید این خط را قبل از #endif بگذارید. تا مشمول این سرایند شود.
     </div>
 
 1. هسته را مجدداً کامپایل و نصب کنید و سیستم را دوباره راه اندازی نمایید.
@@ -205,6 +210,6 @@
 - یک فراخوانی سیستمی با نام adder بنویسید که دو عدد را با یکدیگر جمع کند.
 
 
-برای اطلاعات بیشتر می‌توانید به [https://seshagiriprabhu.wordpress.com/2012/11/15/adding-a-simple-system-call-to-the-linux-3-2-0-kernel-from-scratch/](https://seshagiriprabhu.wordpress.com/2012/11/15/adding-a-simple-system-call-to-the-linux-3-2-0-kernel-from-scratch/) مراجعه کنید.
+برای اطلاعات بیشتر می‌توانید به [این](https://seshagiriprabhu.wordpress.com/2012/11/15/adding-a-simple-system-call-to-the-linux-3-2-0-kernel-from-scratch/) یا [این](https://medium.com/anubhav-shrimal/adding-a-hello-world-system-call-to-linux-kernel-dad32875872) نویسه مراجعه کنید.
 
 </div>
